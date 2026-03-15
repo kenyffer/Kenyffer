@@ -1,34 +1,50 @@
-# Gradle files
-.gradle/
-build/
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Site</title>
 
-# Local configuration file (sdk path, etc)
-local.properties
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    color:white;
+    text-align:center;
+}
 
-# Log/OS Files
-*.log
+header{
+    padding:40px;
+    font-size:30px;
+    font-weight:bold;
+}
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+section{
+    margin-top:100px;
+}
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+button{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:white;
+    color:#333;
+    cursor:pointer;
+}
 
-# Keystore files
-*.jks
-*.keystore
+button:hover{
+    background:#ddd;
+}
+</style>
+</head>
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+<body>
 
-# Android Profiling
-*.hprof
+<header>
+Meu Primeiro Site 🚀
+</header>
+
+<section>
+<h1>Bem vindo!</
